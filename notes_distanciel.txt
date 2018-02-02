@@ -1,15 +1,17 @@
 Distanciel de M1 : Machine Learning
+
 Nous allons, au cours de cette activité, prendre un jeu de données « neuf », et travailler dessus progressivement.
 
 Chaque semaine, un objectif sera fixé. Le résultat final à atteindre est un rapport d’une page indiquant les éléments essentiels que vous avez identifié concernant ce jeu de données. Il peut s’agir
 
-·         D’un problème / défaut dans le jeu de données
+	_ D’un problème / défaut dans le jeu de données
 
-·         D’une sous-population pour laquelle on identifie un comportement particulier
+	_ D’une sous-population pour laquelle on identifie un comportement particulier
 
-·         Un découpage de la population en clusters
+	_ Un découpage de la population en clusters
 
-·         Un modèle permettant de prédire la valeur d’une variable particulière : certaines variables seront identifiées pendant ce cours
+	_ Un modèle permettant de prédire la valeur d’une variable particulière : certaines variables seront identifiées pendant ce cours
+
 
 Les données :
 
@@ -19,30 +21,34 @@ On pourra regarder le questionnaire ici : http://sphinx.univ-nantes.fr/lettres/e
 
 Dans le fichier CSV ci-dessous (appelé Variables.csv), on trouvera les différentes variables (les noms figurent en première ligne du fichier).
 
-L’origine des données.
+
+L’origine des données :
 
 Ces données ont été récoltées par Marine Roche, Doctorante en Sciences de l’Education. Son sujet de thèse porte sur l’appropriation par les enseignants du primaire du nouvel enseignement qui est maintenant dans les programmes dès le CE1 : le code.
 
 Une rencontre avec Marine Roche peut être organisée si des étudiants de M1 sont intéressés d’en savoir plus.
 
+
 Les questions posées sont :
 
-·         Quels sont les facteurs qui ont une influence sur le fait qu’un enseignant décide de se former ?
+	_ Quels sont les facteurs qui ont une influence sur le fait qu’un enseignant décide de se former ?
 
-·         Quels sont les facteurs qui ont une influence sur le fait qu’un enseignant décide d’enseigner le code ? Ou au contraire de ne pas le faire.
+	_ Quels sont les facteurs qui ont une influence sur le fait qu’un enseignant décide d’enseigner le code ? Ou au contraire de ne pas le faire.
 
-Les logiciels
+
+Les logiciels :
 
 On utilisera un tableur, des scripts, ou weka
 
+
 Première tâche :
 
-Nettoyer le jeu de données : cela consiste à
+Nettoyer le jeu de données : cela consiste à :
 
-·         Transformer les réponses des questions à choix multiples (on peut les identifier car il peut y avoir plusieurs réponses, celles-ci sont séparées par ;) en plusieurs variables Booléennes, chacune correspondant à une des réponses.
+	_ Transformer les réponses des questions à choix multiples (on peut les identifier car il peut y avoir plusieurs réponses, celles-ci sont séparées par ;) en plusieurs variables Booléennes, chacune correspondant à une des réponses.
 
-·         Pour des réponses ordonnées (Pas d’accord, plutôt pas d’accord, plutôt d’accord, d’accord), remplacer par une variable à valeurs entières.
+	_ Pour des réponses ordonnées (Pas d’accord, plutôt pas d’accord, plutôt d’accord, d’accord), remplacer par une variable à valeurs entières.
 
-·         Faire attention aux caractères spéciaux (comme les apostrophes, virgules, qui peuvent poser problème).
+	_ Faire attention aux caractères spéciaux (comme les apostrophes, virgules, qui peuvent poser problème).
 
-·         Il faudra aussi se poser la question des accents : selon les logiciels utilisés, ils passeront ou ne passeront pas.
+	_ Il faudra aussi se poser la question des accents : selon les logiciels utilisés, ils passeront ou ne passeront pas.
